@@ -2,14 +2,14 @@
 
 ## 准备工作
 
-使用 scp 上传 hadoop-2.9.9 至服务器前将文件夹打包为 tar 格式（`hadoop-2.9.9.tar`）后再传输。
+使用 scp 上传 hadoop-2.7.7 至服务器前将文件夹打包为 tar 格式（`hadoop-2.7.7.tar`）后再传输。
 
 保证 
 ```
 authorize.sh
 main.sh
 OpenJDK8U-jdk_aarch64_linux_openj9_8u292b10_openj9-0.26.0.tar
-hadoop-2.9.9.tar
+hadoop-2.7.7.tar
 ``` 
 位于 master 服务器 `/root` 目录下。
 
